@@ -1,0 +1,21 @@
+.container{
+    min-height: 100vh;
+    background-color: rgb(122, 176, 23);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.box{
+    height: 80px;
+    width: 80px;
+    color: aquamarine;
+    border: 10px solid rgb(4, 4, 19);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(135, 60, 60);
+
+}
