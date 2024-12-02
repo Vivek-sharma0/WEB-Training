@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Order Numbers</title>
+</head>
+<body>
+    <h1>Numbers in Reverse Order</h1>
+    <p id="reverseNumbers"></p>
+
+    <script>
+        let num = 100;
+        let result = "";
+        while (num >= 0) {
+            result += num + " ";
+            num--;
+        }
+        document.getElementById("reverseNumbers").innerText = result;
+    </script>
+</body>
+</html>

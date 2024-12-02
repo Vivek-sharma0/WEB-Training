@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print Even Numbers</title>
+</head>
+<body>
+    <h1>Even Numbers</h1>
+    <p id="evenNumbers"></p>
+
+    <script>
+        let num = 0;
+        let result = "";
+        while (num <= 100) {
+            if (num % 2 === 0) {
+                result += num + " ";
+            }
+            num++;
+        }
+        document.getElementById("evenNumbers").innerText = result;
+    </script>
+</body>
+</html>

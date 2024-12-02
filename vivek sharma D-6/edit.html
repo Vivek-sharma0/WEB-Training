@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+        
+</head>
+<body>
+   
+    
+    <h1>Hello World</h1>
+
+        <script src="./edit.js"></script>
+        <h1>Numbers Divisible by 3 (1 to 100)</h1>
+        <ul id="divisibleBy3List"></ul>
+    
+        <script>
+            // Function to find numbers divisible by 3
+            function findNumbersDivisibleBy3() {
+                let list = document.getElementById("divisibleBy3List");
+                for (let i = 1; i <= 100; i++) {
+                    if (i % 3 === 0) {
+                        let listItem = document.createElement("li");
+                        listItem.textContent = i;
+                        list.appendChild(listItem);
+                    }
+                }
+            }
+        
+
+    
+            // Call the function to populate the list
+            findNumbersDivisibleBy3();
+
+
+
+
+   
+  
+       
+    </script>
+</body>
+</html>
+
+
+   
+
+
