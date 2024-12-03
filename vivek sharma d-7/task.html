@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd and Even Numbers</title>
+    <style>
+        .even {
+            color: blue;
+        }
+        .odd {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Odd and Even Numbers</h1>
+    <div id="evenNumbers" class="even"></div>
+    <div id="oddNumbers" class="odd"></div>
+
+    <script>
+        let num = 0;
+        let evenResult = "";
+        let oddResult = "";
+        
+        while (num <= 10) {
+            if (num % 2 === 0) {
+                evenResult += num + " ";
+            } else {
+                oddResult += num + " ";
+            }
+            num++;
+        }
+        
+        document.getElementById("evenNumbers").innerText = "Even Numbers: " + evenResult;
+        document.getElementById("oddNumbers").innerText = "Odd Numbers: " + oddResult;
+    </script>
+</body>
+</html>
+    
